@@ -6,8 +6,8 @@ public class Minesweeper {
                     { true, false, true, false, true, true},
                     { true, false, true, false, true, true},
                     { true, true, false, true, true, false},
-                    { true, false, true, false, true, false},
-                    { false, false, true, true, true, false}
+                    { true, false, true, false, true, true},
+                    { false, false, true, true, true, true}
             };
 
     public static void main(String[] args)
@@ -46,6 +46,6 @@ public class Minesweeper {
                 }
             }
         }
-        return count++;
+        return count;
     }
 }
